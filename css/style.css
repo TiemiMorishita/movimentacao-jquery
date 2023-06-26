@@ -1,0 +1,60 @@
+body{
+    background: url(../img/ceu.gif) fixed;
+    background-size: cover;
+}
+
+.btn1{
+    padding: 10px;
+    background-color: #68b0bd;
+    border: none;
+    border-radius: 5px;
+}
+
+.anima-div{
+    background-image: url(../img/pato.png);
+    rotate: y -180deg;
+    background-size: cover;
+    width: 95px;
+    height: 90px;
+    animation: anima-sprite 1.0s steps(6) infinite;
+}
+
+.anima-div-2{
+    background-image: url(../img/pato.png);
+    background-size: cover;
+    width: 95px;
+    height: 90px;
+    animation: anima-sprite 1.0s steps(6) infinite;
+}
+
+@keyframes anima-sprite{
+    from{background-position: 0px;}
+    to{background-position: -630px;}
+}
+
+.anima-div-3{
+    background-image: url(../img/pato2.png);
+    background-size: cover;
+    width: 72px;
+    height: 72px;
+    animation: anima-sprite-2 1.0s steps(9) infinite;
+}
+
+@keyframes anima-sprite-2{
+    from{background-position: 0px;}
+    to{background-position: -650px;}
+}
+
+#anima-div-4{
+    background-image: url(../img/nuvem.png);
+    background-size: cover;
+    width: 1262px;
+    height: 504px;
+    animation: anima-sprite-3 2.0s steps(2) infinite;
+}
+
+@keyframes anima-sprite-3{
+    from{background-position: 0px;}
+    to{background-position: -2524px;}
+}
+
