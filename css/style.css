@@ -1,5 +1,5 @@
 body{
-    background: url(../img/ceu.gif) fixed;
+    background: url(../img/ceu.jpg) fixed;
     background-size: cover;
 }
 
@@ -17,6 +17,8 @@ body{
     width: 95px;
     height: 90px;
     animation: anima-sprite 1.0s steps(6) infinite;
+
+    margin: 10vh;
 }
 
 .anima-div-2{
@@ -25,6 +27,8 @@ body{
     width: 95px;
     height: 90px;
     animation: anima-sprite 1.0s steps(6) infinite;
+
+    margin: 10vh;
 }
 
 @keyframes anima-sprite{
@@ -48,13 +52,14 @@ body{
 #anima-div-4{
     background-image: url(../img/nuvem.png);
     background-size: cover;
-    width: 1262px;
-    height: 504px;
+    width: 100vw;
+    height: 65vh;
     animation: anima-sprite-3 2.0s steps(2) infinite;
+    top: -100px;
 }
 
 @keyframes anima-sprite-3{
     from{background-position: 0px;}
-    to{background-position: -2524px;}
+    to{background-position: -200vw;}
 }
 
