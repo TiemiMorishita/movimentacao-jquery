@@ -42,6 +42,8 @@ body{
     width: 72px;
     height: 72px;
     animation: anima-sprite-2 1.0s steps(9) infinite;
+
+    margin: 10vh;
 }
 
 @keyframes anima-sprite-2{
